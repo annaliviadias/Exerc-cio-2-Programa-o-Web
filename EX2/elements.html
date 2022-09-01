@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>TM Inscrever</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="WebUni Education Template">
+	<meta name="keywords" content="webuni, education, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon" />
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i"
+		rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/style.css" />
+<style type="text/css">
+	section{
+		margin-top: 10px!important;
+	}
+</style>
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3">
+					<div class="site-logo">
+						<h2 style="font-family:'Cabin Sketch'; color:#e62626ed">To Meet</h2><br>
+					</div>
+					<div class="nav-switch">
+						<i class="fa fa-bars"></i>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-9">
+					<a href="index.html" class="site-btn header-btn">Início</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<form action="https://630eb459379256341880692f.mockapi.io/api/v1/inscricao" method="post">
+		<!-- Header section end -->
+
+
+		<!-- Page info -->
+		<div class="page-info-section set-bg" data-setbg="img/page-bg/5.jpg">
+			<div class="container">
+				<div class="site-breadcrumb">
+					<a href="#">Início</a>
+					<span>Inscreva-se</span>
+				</div>
+			</div>
+		</div>
+		<!-- Page info end -->
+
+
+		<!-- search section -->
+		<section class="search-section ss-other-page">
+			<div class="container">
+				<div class="search-warp">
+					<div class="section-title text-white">
+						<h2><span>Dados do aluno</span></h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white">Nome*</label>
+							<input autofocus maxlength="15" style="border: white;" placeholder="Digite seu nome aqui"
+								type="text" id="nomeAluno" name="nome" required>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Rua</label>
+							<input autofocus maxlength="25" style="border: white;" type="text" id="rua" name="ruaAluno"
+								required>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Bairro</label>
+							<input autofocus maxlength="25" style="border: white;" type="text" id="bairroAluno"
+								name="bairro" required>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Cidade</label>
+							<input autofocus maxlength="25" style="border: white;" type="text" id="cidadeAluno"
+								name="cidade" required>
+						</div>
+
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Número</label>
+							<input autofocus maxlength="25" style="border: white;" text-align:center; type="number"
+								id="numeroCasaAluno" name="numero" required>
+						</div>
+
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Completento</label>
+							<input autofocus maxlength="25" style="border: white;" text-align:center; type="text"
+								id="CompletentoAluno" list="listaComplementos">
+							<datalist id="listaComplementos">
+								<option value="Casa"></option>
+								<option value="Apartamento"></option>
+							</datalist>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>CEP</label>
+							<input autofocus maxlength="12" style="border: white;" text-align:center; type="text"
+								id="cepAluno" name="cep" pattern="[0-9]{5}-[0-9]{3}" title="Padrão do CEP: 99999-999"
+								required>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Estados</label>
+							<input autofocus maxlength="2" style="border: white;" text-align:center; type="text"
+								id="estadoAluno" list="listaEstados">
+							<datalist id="listaEstados">
+								<option value="AC"></option>
+								<option value="AL"></option>
+								<option value="AP"></option>
+								<option value="AM"></option>
+								<option value="BA"></option>
+								<option value="CE"></option>
+								<option value="ES"></option>
+								<option value="GO"></option>
+								<option value="MA"></option>
+								<option value="MT"></option>
+								<option value="MS"></option>
+								<option value="MG"></option>
+								<option value="PA"></option>
+								<option value="PB"></option>
+								<option value="PR"></option>
+								<option value="PE"></option>
+								<option value="PI"></option>
+								<option value="RJ"></option>
+								<option value="RN"></option>
+								<option value="RS"></option>
+								<option value="RO"></option>
+								<option value="RR"></option>
+								<option value="SC"></option>
+								<option value="SP"></option>
+								<option value="SE"></option>
+								<option value="TO"></option>
+								<option value="DF"></option>
+							</datalist>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Telefone</label>
+							<input autofocus maxlength="8" style="border: white;" text-align:center; type="number"
+								id="telefoneAluno" name="telefone" pattern="[0-9]{4}-[0-9]{4}"
+								title="Padrão do Telefone: 9999-9999" required>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Celular*</label>
+							<input autofocus maxlength="8" style="border: white;" text-align:center; type="number"
+								id="celularAluno" name="celular" pattern="[0-9]{4}-[0-9]{4}"
+								title="Padrão do Celular: 99999-9999" required>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>E-mail*</label>
+							<input autofocus maxlength="25" style="border: white;" type="email" id="emailAluno"
+								name="email" required>
+						</div>
+						<div class="col-lg-10 offset-lg-1">
+							<label style="color: white;" ; text-align: center>Cor*</label>
+							<input autofocus maxlength="25" style="border: white;" type="cor" id="corAluno" name="cor"
+								required list="listaCor">
+							<datalist id="listaCor">
+								<option value="Branca"></option>
+								<option value="Preta"></option>
+								<option value="Parda"></option>
+								<option value="Amarela"></option>
+								<option value="Indígena"></option>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Dados do Pai-->
+		<section class="search-section ss-other-page">
+			<div class="container">
+				<div class="search-warp">
+					<div class="section-title text-white">
+						<h3><span>Dados do Pai</span></h3>
+					</div>
+
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white">Nome*</label>
+						<input style="border: white;" autofocus maxlength="15" style="border: white;"
+							placeholder="Digite seu nome aqui" type="text" id="nomePai" name="nomePai" required>
+
+					</div>
+
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white;">Data de Nascimento</label>
+						<input style="border: white;" name="dt" type="date" max="2022-08-31" min="1900-01-01">
+					</div>
+
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white">Naturalidade*</label>
+						<input style="border: white;" autofocus maxlength="15" style="border: white;" type="text"
+							id="naturalidadePai" name="naturalidade" required>
+
+						<div>
+							<label style="color: white;" ; text-align: center>Instrução*</label>
+							<input autofocus maxlength="25" style="border: white;" type="nome" id="instrucaoPai"
+								name="instrucaoPai" required list="listaInstrucao">
+							<datalist id="listaInstrucao">
+								<option value="1º Gráu Completo"></option>
+								<option value="1º Gráu Incompleto"></option>
+								<option value="2º Gráu Completo"></option>
+								<option value="2º Gráu Imcompleto"></option>
+								<option value="Superior Completo"></option>
+								<option value="Superior Incompleto"></option>
+							</datalist>
+						</div>
+
+						<div>
+							<label style="color: white">Profissão*</label>
+							<input style="border: white;" autofocus maxlength="15" style="border: white;" type="text"
+								id="profissaoPai" name="profissaoPai" required>
+						</div>
+
+						<div>
+							<label style="color: white;" ; text-align: center>Celular*</label>
+							<input autofocus maxlength="8" style="border: white;" text-align:center; type="number"
+								id="celularPai" name="celularPai" pattern="[0-9]{4}-[0-9]{4}"
+								title="Padrão do Celular: 99999-9999" required>
+						</div>
+
+						<div>
+							<label style="color: white;" ; text-align: center>E-mail*</label>
+							<input autofocus maxlength="25" style="border: white;" type="email" id="emailPai"
+								name="emailPai" required>
+						</div>
+
+						<div>
+							<label style="color: white;" ; text-align: center>CPF*</label>
+							<input autofocus maxlength="8" style="border: white;" text-align:center; type="number"
+								id="cpfPai" name="cpfPai" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
+								title="Padrão do Celular: 999.999.999-99" required>
+						</div>
+						<div>
+							<label style="color: white;" ; text-align: center>Responsável Financeiro*</label>
+							<input autofocus maxlength="25" style="border: white;" type="nome" id="nomePai"
+								name="nomePai" required list="ResponsabelFinanceiro">
+							<datalist id="ResponsabelFinanceiroPai">
+								<option value="Sim"></option>
+								<option value="Não"></option>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!--Dados da Mãe -->
+		<section class="search-section ss-other-page">
+			<div class="container">
+				<div class="search-warp">
+					<div class="section-title text-white">
+						<h3><span>Dados do Mãe</span></h3>
+					</div>
+
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white">Nome*</label>
+						<input style="border: white;" autofocus maxlength="15" style="border: white;"
+							placeholder="Digite seu nome aqui" type="text" id="nomeMae" name="nomeMae" required>
+
+					</div>
+
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white;">Data de Nascimento</label>
+						<input style="border: white;" name="dt" type="date" max="2022-08-31" min="1900-01-01">
+					</div>
+
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white">Naturalidade*</label>
+						<input style="border: white;" autofocus maxlength="15" style="border: white;" type="text"
+							id="naturalidadeMae" name="naturalidadeMae" required>
+
+						<div>
+							<label style="color: white;" ; text-align: center>Instrução*</label>
+							<input autofocus maxlength="25" style="border: white;" type="nome" id="instrucaoMae"
+								name="instrucaoMae" required list="listaInstrucao">
+							<datalist id="listaInstrucao">
+								<option value="1º Gráu Completo"></option>
+								<option value="1º Gráu Incompleto"></option>
+								<option value="2º Gráu Completo"></option>
+								<option value="2º Gráu Imcompleto"></option>
+								<option value="Superior Completo"></option>
+								<option value="Superior Incompleto"></option>
+							</datalist>
+						</div>
+
+						<div>
+							<label style="color: white">Profissão*</label>
+							<input style="border: white;" autofocus maxlength="15" style="border: white;" type="text"
+								id="profissaoMae" name="profissaoMae" required>
+						</div>
+
+						<div>
+							<label style="color: white;" ; text-align: center>Celular*</label>
+							<input autofocus maxlength="8" style="border: white;" text-align:center; type="number"
+								id="celularMae" name="celularMae" pattern="[0-9]{4}-[0-9]{4}"
+								title="Padrão do Celular: 99999-9999" required>
+						</div>
+
+						<div>
+							<label style="color: white;" ; text-align: center>E-mail*</label>
+							<input autofocus maxlength="25" style="border: white;" type="email" id="emailMae"
+								name="emailMae" required>
+						</div>
+
+						<div>
+							<label style="color: white;" ; text-align: center>CPF*</label>
+							<input autofocus maxlength="8" style="border: white;" text-align:center; type="number"
+								id="cpfMae" name="cpfMae" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"
+								title="Padrão do Celular: 999.999.999-99" required>
+						</div>
+						<div>
+							<label style="color: white;" ; text-align: center>Responsável Financeiro*</label>
+							<input autofocus maxlength="25" style="border: white;" type="nome" id="nomeMae"
+								name="nomeMae" required list="ResponsabelFinanceiro">
+							<datalist id="ResponsabelFinanceiroPai">
+								<option value="Sim"></option>
+								<option value="Não"></option>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--==Dados do Curso==-->
+		<section class="search-section ss-other-page">
+			<div class="container">
+				<div class="search-warp">
+					<div class="section-title text-white">
+						<h3><span>Dados do Curso</span></h3>
+					</div>
+
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white">Nome do Curso*</label>
+						<input style="border: white;" autofocus maxlength="15" style="border: white;"
+							placeholder="Digite seu nome aqui" type="text" id="nomeCurso" name="nomeCurso" required>
+
+					</div>
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white;">Data de Ingresso</label>
+						<input style="border: white;" name="dt" type="date" max="2022-08-31" min="1900-01-01" required>
+					</div>
+
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white;" ; text-align: center>Valor*</label>
+
+						<select name="valorCurso" required>
+							<option value="R$250,00">Artesanato R$250,00</option>
+							<option value="Desenvolvimento de TI">Desenvolvimento de TI R$100,00</option>
+							<option value="Disign Gráfico">Disign Gráfico R$95,00</option>
+							<option value="Tecnologia da Informação">Tecnologia da Informação R$105,00</option>
+							<option value="Mídia Social">Mídia Social R$85,00</option>
+							<option value="HTML 5">HTML 5R$110,00</option>
+						</select>
+					</div>
+					<div class="col-lg-10 offset-lg-1">
+						<label style="color: white;" ; text-align: center>Parcelas*</label>
+						<select name="parcela" required>
+							<option value="2X">2X</option>
+							<option value="3x">3x</option>
+							<option value="4x">4x</option>
+							<option value="5x"></option>
+						</select>
+					</div>
+					<button type="submit" class="site-btn">Finalizar Inscrição</button> 
+				</div>
+			</div>
+		</section>
+	</form>
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mixitup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
