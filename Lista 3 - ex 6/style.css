@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(4, 2, 1);
+}
+.divLogo{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.logo{
+    width: 200px;
+}
+
+.tb{
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: bisque;
+    border-color: rgb(255, 128, 0);
+    border-style: solid;
+    width: 766px;
+    height: 36px;
+}
+
+.lanche{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.nome{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(255, 128, 0);
+}
+
+.preco{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(255, 128, 0);
+}
+
+.descricao{
+    font-family: Tahoma;
+    font-weight: bolder;
+    margin-right: 40px;
+}
+
+.contato{
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: bisque;
+    border-style: solid;
+    border-color: rgb(255, 128, 0);
+    width: 766px;
+    height: 36px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.telefone{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.whatsapp{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
