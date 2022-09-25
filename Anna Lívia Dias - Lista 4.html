@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Brinquedos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container ">
+            <!--Cabeçalho-->
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <!--Início-->
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <!--Peão-->
+        <div class="row mb-3">
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style=" justify-content: center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXxjSxGszEGHnj3ErTGdzs6QIpAO78UO2EXg&usqp=CAU"
+                        class="card-img-top" alt="..." width="315px" height="200px">
+                    <div class="card-body">
+                        <h5 class="card-title">Peão de Madeira</h5>
+                        <p class="card-text">Brinquedo de madeira.</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Descrição
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header" style="border: color;">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXxjSxGszEGHnj3ErTGdzs6QIpAO78UO2EXg&usqp=CAU"
+                                            class="modal-img-top" alt="..." width="215px" height="140px">
+                                         <diV>
+                                            <h5>R$8,00</h5>
+                                            <label style="color: rgb(0, 0, 0);" ; text-align: center>Quantidade</label> <br>
+                                        <input name="qtdPeao" pattern="[0-9]{1}">  
+                                          <button type="submit" class="btn btn-primary" data-bs-toggle="modal">Salvar</button>  <br>                                      
+                                      </diV>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+
+                                    </div>
+
+                                    <h5 class="modal-title" id="staticBackdropLabel">Descrição</h5>
+                                    <div class="modal-body">O pião é um brinquedo muito antigo, foi trazido pelos
+                                        colonizadores português no tempo do império.
+                                        Existem diversas maneiras de brincadeiras, como por exemplo: Caça consiste em
+                                        jogar o pião no chão e “caçá-lo” com a mão, Cela o jogador lança o seu pião
+                                        dentro da cela, sobre os que lá estão e, com habilidade, puxá-lo para fora, e
+                                        entre outras brincadeiras.
+
+                                        <h5 class="modal-title" id="staticBackdropLabel">Detalhes</h5>
+                                        <div class="modal-body">Material de fabricação madeira<br>
+                                            Produto indicado para crianças acima de 3 anos.<br>
+                                            Garantia contra defeitos de fabricação 3 meses<br>
+                                            Tamanho aproximado altura 7 cm, largura 5 cm
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Pogobol-->
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style=" justify-content: center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLeHq9bNogRykfcy5-RHWhmGu4FQcmLTndAw&usqp=CAU"
+                        class="card-img-top" alt="..." width="315px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">Pogobol</h5>
+                        <p class="card-text">Pula Pula com base para apoio dos pés.</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pogobol">
+                            Descrição
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="pogobol" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="pogobolLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLeHq9bNogRykfcy5-RHWhmGu4FQcmLTndAw&usqp=CAU"
+                                            class="modal-img-top" alt="..." width="215px" height="140px">
+                                            
+                                            <diV>
+                                                <h5>R$150,00</h5>
+                                                <label style="color: rgb(0, 0, 0);" ; text-align: center>Quantidade</label> <br>
+                                            <input name="qtdPeao" pattern="[0-9]{1}">  
+                                              <button type="submit" class="btn btn-primary" data-bs-toggle="modal">Salvar</button>  <br>                                      
+                                          </diV>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+    
+                                    </div>
+                                    <h5 class="modal-title" id="pogobolLabel">Descrição</h5>
+                                    <div class="modal-body">Você vai se divertir e de quebra gastar uma boa dose de
+                                        energia brincando!
+                                        <h5 class="modal-title" id="pogobolLabel">Detalhes</h5>
+                                        <div class="modal-body">Para brincar, é só apoiar os pés sobre o disco, empurrar
+                                            o disco para baixo com os pés e começar a pular. O Pogobol pode ser usado
+                                            por crianças acima de 05 anos, pesando até 70 kg.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Ioio de Madeira-->
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style=" justify-content: center">
+                    <img src="https://cdn.sistemawbuy.com.br/arquivos/1945cf2aa53f644df14c4dd21a5ee14d/produtos/VA2XO5/ioio-03-601c5ddb2d228.jpg    "
+                        class="card-img-top" alt="..." width="200px" height="180px">
+                    <div class="card-body">
+                        <h5 class="card-title">IoIo de Madeira</h5>
+                        <p class="card-text">É um daqueles brinquedos antigos e atuais, que nunca saem de moda!</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ioio">
+                            Descrição
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="ioio" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="ioioLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img src="https://cdn.sistemawbuy.com.br/arquivos/1945cf2aa53f644df14c4dd21a5ee14d/produtos/VA2XO5/ioio-03-601c5ddb2d228.jpg    "
+                                            class="modal-img-top" alt="..." width="115px" height="100px">
+                                            <diV>
+                                                <h5>R$15,00</h5>
+                                                <label style="color: rgb(0, 0, 0);" ; text-align: center>Quantidade</label> <br>
+                                            <input name="qtdPeao" pattern="[0-9]{1}">  
+                                              <button type="submit" class="btn btn-primary" data-bs-toggle="modal">Salvar</button>  <br>                                      
+                                          </diV>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+    
+                                        </div>
+                                    <h5 class="modal-title" id="ioioLabel">Descrição</h5>
+                                    <div class="modal-body">
+                                        Esse brinquedo infantil antigo trabalha a coordenação motora, a concentração, o
+                                        ritmo e o compasso! Essa antiga brincadeira de criança voltou a seduzir jovens e
+                                        adultos. Vai ser muita diversão para a família toda!
+                                        Existem diversas maneiras de brincadeiras, como por exemplo: Caça consiste em
+                                        jogar o pião no chão e “caçá-lo” com a mão, Cela o jogador lança o seu pião
+                                        dentro da cela, sobre os que lá estão e, com habilidade, puxá-lo para fora, e
+                                        entre outras brincadeiras.
+
+                                        <h5 class="modal-title" id="ioioLabel">Detalhes</h5>
+                                        <div class="modal-body">Marca: Fábrika dos Sonhos<br>
+                                            Modelo: ioio brinquedo - io io brinquedos<br>
+                                            Tipo: brinquedos infantis antigos - io io de madeira<br>
+                                            Material: madeira de reflorestamento<br>
+                                            Composição: io-iô clássico com cordão e adesivo colorido<br>
+                                            Tamanho: 6 x 3 cm de espessura
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Descrição</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">Você vai se divertir e de quebra gastar uma boa dose de
+                                        energia brincando!
+                                        <h5 class="modal-title" id="staticBackdropLabel">Detalhes</h5>
+                                        <div class="modal-body">Para brincar, é só apoiar os pés sobre o disco, empurrar
+                                            o disco para baixo com os pés e começar a pular. O Pogobol pode ser usado
+                                            por crianças acima de 05 anos, pesando até 70 kg.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Bolinha de Gude-->
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style=" justify-content: center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2UXIUha9HbeC5gqibwEuWY360hR7pCypCzQ&usqp=CAU"
+                        class="card-img-top" alt="..." width="315px" height="230px">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolinha de Gude</h5>
+                        <p class="card-text">É um daqueles brinquedos antigos e atuais, que nunca saem de moda!</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#bolinhadegude">
+                            Descrição
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="bolinhadegude" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="bolinhadegudeLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2UXIUha9HbeC5gqibwEuWY360hR7pCypCzQ&usqp=CAU"
+                                            class="modal-img-top" alt="..." width="310px" height="200px">
+                                        <div>
+                                            <h5>R$0,15</h5>
+                                            <h7>(Cada)</h7><br>
+                                            <label style="color: rgb(0, 0, 0);" ; text-align: center>Quantidade</label> <br>
+                                        <input name="qtdPeao" pattern="[0-9]{1}">  
+                                          <button type="submit" class="btn btn-primary" data-bs-toggle="modal">Salvar</button>  <br>                                      
+                                      </diV>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+
+                                    </div>
+                                    <h5 class="modal-title" id="bolinhadegudeLabel">Descrição</h5>
+                                    <div class="modal-body">
+                                        Bola de gude pode ser definida como uma pequena bola de vidro maciço, pedra ou
+                                        metal, normalmente escura, manchada ou intensamente colorida, de tamanho
+                                        variável, usada em jogos infantis.
+
+                                        <h5 class="modal-title" id="bolinhadegudeLabel">Detalhes</h5>
+                                        <div class="modal-body">Marca: Fábrika dos Sonhos<br>
+                                            Modelo: ioio brinquedo - io io brinquedos<br>
+                                            Tipo: brinquedos infantis antigos - io io de madeira<br>
+                                            Material: madeira de reflorestamento<br>
+                                            Composição: io-iô clássico com cordão e adesivo colorido<br>
+                                            Tamanho: 6 x 3 cm de espessura
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Tamagotch-->
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style=" justify-content: center">
+                    <img src="https://aurelio.net/tamagotchi/tamagotchi-v1.jpg" class="card-img-top" alt="..." height="250px" width="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Tamagotch</h5>
+                        <p class="card-text">Bichinho virtual.</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#tamagotchi">
+                            Descrição
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="tamagotchi" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="tamagotchiLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img src="https://aurelio.net/tamagotchi/tamagotchi-v1.jpg" class="card-img-top"
+                                            alt="..." height="200px" width="200px">
+
+                                            <diV>
+                                                <h5>R$35,00</h5>
+                                                <label style="color: rgb(0, 0, 0);" ; text-align: center>Quantidade</label> <br>
+                                            <input name="qtdPeao" pattern="[0-9]{1}">  
+                                              <button type="submit" class="btn btn-primary" data-bs-toggle="modal">Salvar</button>  <br>                                      
+                                          </diV>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+    
+                                    </div>
+                                    <h5 class="modal-title" id="tamagotchiLabel">Descrição</h5>
+                                    <div class="modal-body">É um brinquedo em que se cria um animal de estimação
+                                        virtual.
+
+                                        <h5 class="modal-title" id="tamagotchiLabel">Detalhes</h5>
+                                        <div class="modal-body">Marca TAMAGOTCHI<br>
+                                            Cor Amarelo/azul<br>
+                                            Material Plásticos<br>
+                                            Montagem necessária Não<br>
+                                            Nome do modelo Jogo Eletrónico
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Pega Vareta-->
+            <div class="col-12 col-sm-4 mb-3">
+                <div class="card" style=" justify-content: center">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top" alt="..." height="230px">
+                    <div class="card-body">
+                        <h5 class="card-title">Pega Vareta</h5>
+                        <p class="card-text">Para reunior a família e se divertir muito.</p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#pegavareta">
+                            Descrição
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="pegavareta" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="pegavaretaLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img src="data:image/jpeg;base64,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"
+                                            class="card-img-top" alt="..." height="200px" width="200px">
+                                            <diV>
+                                                <h5>R$15,00</h5>
+                                                <label style="color: rgb(0, 0, 0);" ; text-align: center>Quantidade</label> <br>
+                                            <input name="qtdPeao" pattern="[0-9]{1}">  
+                                              <button type="submit" class="btn btn-primary" data-bs-toggle="modal">Salvar</button>  <br>                                      
+                                          </diV>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                            </div>
+                                    <h5 class="modal-title" id="tamagotchiLabel">Descrição</h5>
+                                    <div class="modal-body">O jogo Pega Varetas é composto de 31 varetas coloridas, cada
+                                        cor possui um valor de pontuação diferente.
+                                        O objetivo é retirar as varetas do monte sem mexer as demais, somando o número
+                                        de pontos maior do que o oponente.<br>
+                                        Pode ser jogado entre dois ou mais jogadores.
+
+                                        <h5 class="modal-title" id="tamagotchiLabel">Detalhes</h5>
+                                        <div class="modal-body">Após as varetas espalhadas define-se por sorteio quem
+                                            deve começar pegando. O jogador que inicia remove quantas varetas puder até
+                                            mexer nas demais. Assim que o jogador mexe numa vareta que não seja a que
+                                            está retirando, perde a vez. A vareta que estava sendo removida deve ser
+                                            deixada no lugar onde estava ou devolvida sobre as demais.
+                                            Ambas as mãos podem ser usadas para pegar as varetas. Após ter pego uma
+                                            vareta, o jogador poderá utilizá-la para auxiliar na retirada das demais.
+                                            Cada vareta possui um pontuação conforme sua cor: as amarelas valem 05
+                                            pontos, as verdes 10, azuis 15, vermelhas 20 e a preta 50 pontos.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
